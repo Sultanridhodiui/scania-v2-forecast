@@ -1,0 +1,37 @@
+Branch_ID,Branch_Name,Province,Region,Sector_Focus,Branch_Size_Factor,Distance_to_Central_Warehouse_KM
+BPP,Balikpapan,Kalimantan Timur,Kalimantan,Mining-Coal,1.86,1466
+SMD,Samarinda,Kalimantan Timur,Kalimantan,Mining-Coal,0.61,2799
+BJM,Banjarmasin,Kalimantan Selatan,Kalimantan,Mining-Coal,0.94,1612
+PLB,Palembang,Sumatera Selatan,Sumatera,Mining-Coal,0.87,3035
+JMB,Jambi,Jambi,Sumatera,Mining-Coal,0.85,3313
+PKU,Pekanbaru,Riau,Sumatera,Forestry,2.12,1083
+MDN,Medan,Sumatera Utara,Sumatera,Agriculture,2.35,1864
+PDG,Padang,Sumatera Barat,Sumatera,Construction,1.05,1868
+MKS,Makassar,Sulawesi Selatan,Sulawesi,Mining-Nickel,2.14,1923
+KDI,Kendari,Sulawesi Tenggara,Sulawesi,Mining-Nickel,2.28,296
+PLU,Palu,Sulawesi Tengah,Sulawesi,Mining-Nickel,1.53,1325
+MND,Manado,Sulawesi Utara,Sulawesi,Agriculture,0.99,2062
+JKT,Jakarta,DKI Jakarta,Jawa,Construction,2.15,3218
+BDG,Bandung,Jawa Barat,Jawa,Construction,0.93,870
+SMG,Semarang,Jawa Tengah,Jawa,Construction,1.98,2272
+SBY,Surabaya,Jawa Timur,Jawa,Construction,1.76,2689
+YGY,Yogyakarta,DI Yogyakarta,Jawa,Agriculture,2.35,3238
+DPS,Denpasar,Bali,Bali-Nusra,Construction,0.96,649
+MTR,Mataram,Nusa Tenggara Barat,Bali-Nusra,Agriculture,2.1,2376
+JAY,Jayapura,Papua,Papua,Mining-Coal,1.54,1128
+SOQ,Sorong,Papua Barat,Papua,Forestry,0.96,1568
+AMQ,Ambon,Maluku,Maluku,Forestry,0.83,99
+TRK,Tarakan,Kalimantan Utara,Kalimantan,Mining-Coal,1.5,2541
+PTK,Pontianak,Kalimantan Barat,Kalimantan,Forestry,1.67,162
+BTH,Batam,Kepulauan Riau,Sumatera,Construction,0.87,1340
+BKL,Bengkulu,Bengkulu,Sumatera,Agriculture,0.53,1763
+LPG,Bandar Lampung,Lampung,Sumatera,Agriculture,1.44,2358
+GTO,Gorontalo,Gorontalo,Sulawesi,Agriculture,1.96,1665
+KPG,Kupang,Nusa Tenggara Timur,Bali-Nusra,Mining-Coal,2.34,2944
+MRK,Merauke,Papua Selatan,Papua,Agriculture,1.75,490
+SRG,Sorong Selatan,Papua Barat Daya,Papua,Mining-Coal,2.33,954
+BPN2,Bontang,Kalimantan Timur,Kalimantan,Mining-Coal,2.23,938
+LHK,Lhokseumawe,Aceh,Sumatera,Mining-Coal,0.94,1360
+CRB,Cirebon,Jawa Barat,Jawa,Agriculture,2.23,60
+MLG,Malang,Jawa Timur,Jawa,Agriculture,1.96,1531
+SGT,Singkawang,Kalimantan Barat,Kalimantan,Forestry,1.06,1364
