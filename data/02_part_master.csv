@@ -1,0 +1,151 @@
+Part_Number,Part_Name,Part_Category,Rank,Criticality_Level,Unit_Price_IDR,Supplier_Location,Standard_Leadtime_SeaFreight_Days,Alt_Leadtime_AirFreight_Days,Sector_Sensitivity
+SC-FUE-0001,Fuel System - 0001,Fuel System,A,Medium,3324000.0,Scania Principal - Belgium (Leuven DC),121,32,Agriculture
+SC-FLT-0001,Filter - 0001,Filter,B,Medium,352000.0,Scania Principal - Belgium (Leuven DC),125,31,General
+SC-HYD-0001,Hydraulic System - 0001,Hydraulic System,B,Medium,5643000.0,Scania Principal - Belgium (Leuven DC),127,31,Mining-Coal
+SC-CLG-0001,Cooling System - 0001,Cooling System,C,medium,2124000.0,Scania Principal - Belgium (Leuven DC),116,29,Construction
+SC-TRN-0001,Transmission - 0001,Transmission,B,MEDIUM,16009000.0,Scania Principal - Belgium (Leuven DC),119,32,Forestry
+SC-SUS-0001,Suspension & Chassis - 0001,Suspension & Chassis,B,High,9175000.0,Scania Principal - Belgium (Leuven DC),127,29,Agriculture
+SC-ENG-0001,Engine Component - 0001,Engine Component,C,Low,14651000.0,Scania Principal - Belgium (Leuven DC),128,28,Mining-Coal
+SC-ENG-0002,Engine Component - 0002,Engine Component,A,Critical,57337000.0,Scania Regional Warehouse - Singapore,39,8,Mining-Nickel
+SC-HYD-0002,Hydraulic System - 0002,Hydraulic System,C,Low,,Scania Principal - Belgium (Leuven DC),128,29,Mining-Coal
+SC-SUS-0002,Suspension & Chassis - 0002,Suspension & Chassis,A,Medium,6987000.0,Scania Principal - Belgium (Leuven DC),125,28,Construction
+SC-HYD-0003,Hydraulic System - 0003,Hydraulic System,B,LOW,4507000.0,Scania Principal - Belgium (Leuven DC),126,28,Mining-Coal
+SC-FUE-0002,Fuel System - 0002,Fuel System, B ,high,4376000.0,Scania Principal - Belgium (Leuven DC),117,30,Agriculture
+SC-FLT-0002,Filter - 0002,Filter,B,High,864000.0,Scania Principal - Belgium (Leuven DC),128,28,Agriculture
+SC-SUS-0003,Suspension & Chassis - 0003,Suspension & Chassis,C,Medium,7785000.0,Scania Regional Warehouse - Singapore,43,8,Construction
+SC-TWA-0001,Tire & Wheel Accessories - 0001,Tire & Wheel Accessories,B,High,1392000.0,Scania Principal - Belgium (Leuven DC),120,28,Construction
+SC-FLT-0003,Filter - 0003,Filter,B,medium,794000.0,Scania Regional Warehouse - Singapore,38,7,Agriculture
+SC-ENG-0003,Engine Component - 0003,Engine Component,c,High,33413000.0,Scania Principal - Belgium (Leuven DC),117,31,General
+SC-SUS-0004,Suspension & Chassis - 0004,Suspension & Chassis,a,critical,12425000.0,Scania Regional Warehouse - Singapore,36,12,Forestry
+SC-FLT-0004,Filter - 0004,Filter,C,Medium,434000.0,Scania Principal - Belgium (Leuven DC),124,30,General
+SC-HYD-0004,Hydraulic System - 0004,Hydraulic System,A,High,9000000.0,Scania Regional Warehouse - Singapore,43,9,Construction
+SC-FLT-0005,Filter - 0005,Filter,A,HIGH,805000.0,Scania Principal - Belgium (Leuven DC),127,31,Construction
+SC-BRK-0001,Brake System - 0001,Brake System, C ,medium,,Scania Regional Warehouse - Singapore,44,8,General
+SC-SUS-0005,Suspension & Chassis - 0005,Suspension & Chassis,C, Medium ,11213000.0,Scania Regional Warehouse - Singapore,45,7,Mining-Coal
+SC-BRK-0002,Brake System - 0002,Brake System,C,High,7875000.0,Scania Principal - Belgium (Leuven DC),116,31,Construction
+SC-BRK-0003,Brake System - 0003,Brake System,A,Critical,5276000.0,Scania Regional Warehouse - Singapore,31,9,Mining-Coal
+SC-FUE-0003,Fuel System - 0003,Fuel System,B,medium,8066000.0,Scania Principal - Belgium (Leuven DC),119,28,Agriculture
+SC-SUS-0006,Suspension & Chassis - 0006,Suspension & Chassis,C,medium,5129000.0,Scania Principal - Belgium (Leuven DC),128,30,Agriculture
+SC-TWA-0002,Tire & Wheel Accessories - 0002,Tire & Wheel Accessories,A,critical,1592000.0,Scania Principal - Belgium (Leuven DC),119,30,Agriculture
+SC-ENG-0004,Engine Component - 0004,Engine Component,C,Medium,40151000.0,Scania Principal - Belgium (Leuven DC),126,28,Mining-Nickel
+SC-TWA-0003,Tire & Wheel Accessories - 0003,Tire & Wheel Accessories,B,HIGH,1704000.0,Scania Principal - Belgium (Leuven DC),125,28,Agriculture
+SC-TRN-0002,Transmission - 0002,Transmission,B,Medium,13921000.0,Scania Principal - Belgium (Leuven DC),127,31,Mining-Coal
+SC-SUS-0007,Suspension & Chassis - 0007,Suspension & Chassis,A,Critical,9470000.0,Scania Principal - Belgium (Leuven DC),129,30,General
+SC-FLT-0006,Filter - 0006,Filter,B,High,455000.0,Scania Principal - Belgium (Leuven DC),128,29,Construction
+SC-SUS-0008,Suspension & Chassis - 0008,Suspension & Chassis, A ,HIGH,6592000.0,Scania Regional Warehouse - Singapore,49,12,Construction
+SC-FUE-0004,Fuel System - 0004,Fuel System,B,High,5296000.0,Scania Principal - Belgium (Leuven DC),125,29,General
+SC-TRN-0003,Transmission - 0003,Transmission,C,Low,11900000.0,Scania Regional Warehouse - Singapore,45,8,General
+SC-TRN-0004,Transmission - 0004,Transmission,a, High ,22916000.0,Scania Regional Warehouse - Singapore,43,10,Mining-Coal
+SC-FLT-0007,Filter - 0007,Filter,b,Medium,673000.0,Scania Principal - Belgium (Leuven DC),129,29,Construction
+SC-ELC-0001,Electrical System - 0001,Electrical System,C,Medium,2377000.0,Scania Regional Warehouse - Singapore,48,10,Mining-Coal
+SC-FUE-0005,Fuel System - 0005,Fuel System,B,High,4140000.0,Scania Regional Warehouse - Singapore,37,12,Mining-Nickel
+SC-TWA-0004,Tire & Wheel Accessories - 0004,Tire & Wheel Accessories, B ,High,2089000.0,Scania Principal - Belgium (Leuven DC),119,28,Agriculture
+SC-CLG-0002,Cooling System - 0002,Cooling System,B,Critical,2686000.0,Scania Regional Warehouse - Singapore,40,8,General
+SC-TRN-0005,Transmission - 0005,Transmission,C,Low,28725000.0,Scania Regional Warehouse - Singapore,48,7,Agriculture
+SC-SUS-0009,Suspension & Chassis - 0009,Suspension & Chassis,B,Medium,6938000.0,Scania Principal - Belgium (Leuven DC),125,28,Forestry
+SC-FUE-0006,Fuel System - 0006,Fuel System, D ,High,4260000.0,Scania Regional Warehouse - Singapore,47,8,General
+SC-HYD-0005,Hydraulic System - 0005,Hydraulic System,C,medium,5204000.0,Scania Regional Warehouse - Singapore,36,8,General
+SC-SUS-0010,Suspension & Chassis - 0010,Suspension & Chassis,A,High,9364000.0,Scania Principal - Belgium (Leuven DC),116,28,Construction
+SC-BRK-0004,Brake System - 0004,Brake System,B,medium,2138000.0,Scania Regional Warehouse - Singapore,33,12,Agriculture
+SC-FUE-0007,Fuel System - 0007,Fuel System, D , High ,5334000.0,Scania Principal - Belgium (Leuven DC),128,30,General
+SC-SUS-0011,Suspension & Chassis - 0011,Suspension & Chassis,C,Medium,3224000.0,Scania Principal - Belgium (Leuven DC),122,30,Mining-Nickel
+SC-HYD-0006,Hydraulic System - 0006,Hydraulic System,B,Medium,8679000.0,Scania Principal - Belgium (Leuven DC),127,32,Mining-Nickel
+SC-SUS-0012,Suspension & Chassis - 0012,Suspension & Chassis,D,Low,6381000.0,Scania Principal - Belgium (Leuven DC),123,32,Construction
+SC-CLG-0003,Cooling System - 0003,Cooling System,B,Low,3763000.0,Scania Regional Warehouse - Singapore,48,7,Forestry
+SC-BRK-0005,Brake System - 0005,Brake System, B , High ,2476000.0,Scania Regional Warehouse - Singapore,44,8,General
+SC-ENG-0005,Engine Component - 0005,Engine Component,B,Critical,29039000.0,Scania Regional Warehouse - Singapore,34,8,General
+SC-SUS-0013,Suspension & Chassis - 0013,Suspension & Chassis,D, Medium ,7333000.0,Scania Principal - Belgium (Leuven DC),118,32,Mining-Coal
+SC-CLG-0004,Cooling System - 0004,Cooling System,A,HIGH,2757000.0,Scania Regional Warehouse - Singapore,49,9,General
+SC-FUE-0008,Fuel System - 0008,Fuel System,D,Low,2215000.0,Scania Regional Warehouse - Singapore,33,7,Construction
+SC-ENG-0006,Engine Component - 0006,Engine Component,B, High ,41491000.0,Scania Principal - Belgium (Leuven DC),120,28,Construction
+SC-SUS-0014,Suspension & Chassis - 0014,Suspension & Chassis, C , Medium ,5744000.0,Scania Principal - Belgium (Leuven DC),129,28,Agriculture
+SC-BRK-0006,Brake System - 0006,Brake System,B,Medium,3096000.0,Scania Principal - Belgium (Leuven DC),121,29,Mining-Coal
+SC-HYD-0007,Hydraulic System - 0007,Hydraulic System,B,MEDIUM,9544000.0,Scania Principal - Belgium (Leuven DC),124,28,Construction
+SC-SUS-0015,Suspension & Chassis - 0015,Suspension & Chassis,B,HIGH,6139000.0,Scania Regional Warehouse - Singapore,37,10,General
+SC-FUE-0009,Fuel System - 0009,Fuel System,C,Low,7480000.0,Scania Regional Warehouse - Singapore,43,10,Forestry
+SC-ENG-0007,Engine Component - 0007,Engine Component,B,CRITICAL,17981000.0,Scania Principal - Belgium (Leuven DC),124,28,Agriculture
+SC-SUS-0016,Suspension & Chassis - 0016,Suspension & Chassis,A,,4619000.0,Scania Principal - Belgium (Leuven DC),127,31,General
+SC-ELC-0002,Electrical System - 0002,Electrical System,B,,5457000.0,Scania Regional Warehouse - Singapore,45,9,Forestry
+SC-TWA-0005,Tire & Wheel Accessories - 0005,Tire & Wheel Accessories,D,Low,2302000.0,Scania Principal - Belgium (Leuven DC),122,32,Agriculture
+SC-HYD-0008,Hydraulic System - 0008,Hydraulic System,C,MEDIUM,14858000.0,Scania Principal - Belgium (Leuven DC),127,30,Construction
+SC-TWA-0006,Tire & Wheel Accessories - 0006,Tire & Wheel Accessories,D,High,1249000.0,Scania Principal - Belgium (Leuven DC),120,32,Agriculture
+SC-TRN-0006,Transmission - 0006,Transmission,b,High,27802000.0,Scania Regional Warehouse - Singapore,46,8,Forestry
+SC-HYD-0009,Hydraulic System - 0009,Hydraulic System,C,Low,7406000.0,Scania Principal - Belgium (Leuven DC),126,28,Mining-Coal
+SC-TRN-0007,Transmission - 0007,Transmission,C,Low,,Scania Principal - Belgium (Leuven DC),129,28,Mining-Coal
+SC-TWA-0007,Tire & Wheel Accessories - 0007,Tire & Wheel Accessories,B, Medium ,2296000.0,Scania Principal - Belgium (Leuven DC),120,28,Mining-Coal
+SC-HYD-0010,Hydraulic System - 0010,Hydraulic System,a,Medium,15844000.0,Scania Principal - Belgium (Leuven DC),118,31,Mining-Coal
+SC-ELC-0003,Electrical System - 0003,Electrical System,A, Critical ,4196000.0,Scania Principal - Belgium (Leuven DC),125,32,Mining-Coal
+SC-SUS-0017,Suspension & Chassis - 0017,Suspension & Chassis,c,,7122000.0,Scania Principal - Belgium (Leuven DC),120,30,Construction
+SC-HYD-0011,Hydraulic System - 0011,Hydraulic System,c,Medium,7471000.0,Scania Principal - Belgium (Leuven DC),121,28,Forestry
+SC-TWA-0008,Tire & Wheel Accessories - 0008,Tire & Wheel Accessories,C,Low,2732000.0,Scania Principal - Belgium (Leuven DC),121,29,General
+SC-ENG-0008,Engine Component - 0008,Engine Component,B,Critical,27488000.0,Scania Principal - Belgium (Leuven DC),129,31,Agriculture
+SC-TRN-0008,Transmission - 0008,Transmission,a,medium,9964000.0,Scania Principal - Belgium (Leuven DC),126,30,Agriculture
+SC-TRN-0009,Transmission - 0009,Transmission, B ,Medium,26235000.0,Scania Principal - Belgium (Leuven DC),120,29,Construction
+SC-ENG-0009,Engine Component - 0009,Engine Component,C, Medium ,39385000.0,Scania Principal - Belgium (Leuven DC),129,29,Mining-Nickel
+SC-ENG-0010,Engine Component - 0010,Engine Component,d,Low,45222000.0,Scania Regional Warehouse - Singapore,37,13,Forestry
+SC-BRK-0007,Brake System - 0007,Brake System,B,medium,3935000.0,Scania Principal - Belgium (Leuven DC),124,30,Construction
+SC-FUE-0010,Fuel System - 0010,Fuel System,A,Critical,4791000.0,Scania Principal - Belgium (Leuven DC),116,29,Mining-Coal
+SC-BRK-0008,Brake System - 0008,Brake System,d,Low,5986000.0,Scania Principal - Belgium (Leuven DC),129,28,Agriculture
+SC-FLT-0008,Filter - 0008,Filter,b,low,569000.0,Scania Regional Warehouse - Singapore,45,7,Forestry
+SC-FLT-0009,Filter - 0009,Filter,B,medium,367000.0,Scania Principal - Belgium (Leuven DC),120,30,Forestry
+SC-CLG-0005,Cooling System - 0005,Cooling System,b,Medium,1879000.0,Scania Regional Warehouse - Singapore,34,9,Mining-Coal
+SC-ENG-0011,Engine Component - 0011,Engine Component,C, Low ,20666000.0,Scania Principal - Belgium (Leuven DC),125,31,Construction
+SC-TRN-0010,Transmission - 0010,Transmission,A, Critical ,7345000.0,Scania Principal - Belgium (Leuven DC),117,29,Mining-Coal
+SC-SUS-0018,Suspension & Chassis - 0018,Suspension & Chassis,B, Medium ,10393000.0,Scania Principal - Belgium (Leuven DC),128,31,Construction
+SC-ELC-0004,Electrical System - 0004,Electrical System, C ,Medium,3367000.0,Scania Principal - Belgium (Leuven DC),126,31,Forestry
+SC-ENG-0012,Engine Component - 0012,Engine Component,A,critical,20262000.0,Scania Principal - Belgium (Leuven DC),126,28,Mining-Coal
+SC-BRK-0009,Brake System - 0009,Brake System,C,low,2751000.0,Scania Principal - Belgium (Leuven DC),118,29,General
+SC-TRN-0011,Transmission - 0011,Transmission,C,Medium,24412000.0,Scania Principal - Belgium (Leuven DC),120,30,Forestry
+SC-TWA-0009,Tire & Wheel Accessories - 0009,Tire & Wheel Accessories, C ,High,697000.0,Scania Regional Warehouse - Singapore,45,13,Forestry
+SC-TRN-0012,Transmission - 0012,Transmission, B ,High,9682000.0,Scania Principal - Belgium (Leuven DC),128,30,Mining-Coal
+SC-ENG-0013,Engine Component - 0013,Engine Component,C,Medium,31093000.0,Scania Regional Warehouse - Singapore,49,11,Agriculture
+SC-ELC-0005,Electrical System - 0005,Electrical System, D ,low,4008000.0,Scania Principal - Belgium (Leuven DC),126,32,Construction
+SC-BRK-0010,Brake System - 0010,Brake System,a,high,3365000.0,Scania Regional Warehouse - Singapore,47,9,Mining-Coal
+SC-FLT-0010,Filter - 0010,Filter,A, Critical ,1295000.0,Scania Principal - Belgium (Leuven DC),119,32,Forestry
+SC-FLT-0011,Filter - 0011,Filter,B,HIGH,568000.0,Scania Principal - Belgium (Leuven DC),124,30,General
+SC-ENG-0014,Engine Component - 0014,Engine Component,c,,43882000.0,Scania Principal - Belgium (Leuven DC),122,30,General
+SC-HYD-0012,Hydraulic System - 0012,Hydraulic System,B, High ,14855000.0,Scania Regional Warehouse - Singapore,35,13,Agriculture
+SC-TWA-0010,Tire & Wheel Accessories - 0010,Tire & Wheel Accessories,B,High,1777000.0,Scania Principal - Belgium (Leuven DC),124,29,General
+SC-SUS-0019,Suspension & Chassis - 0019,Suspension & Chassis,c,Medium,4533000.0,Scania Principal - Belgium (Leuven DC),126,30,Mining-Coal
+SC-HYD-0013,Hydraulic System - 0013,Hydraulic System,B,MEDIUM,7281000.0,Scania Principal - Belgium (Leuven DC),116,28,Construction
+SC-ELC-0006,Electrical System - 0006,Electrical System, C ,Low,3190000.0,Scania Principal - Belgium (Leuven DC),129,31,Construction
+SC-ELC-0007,Electrical System - 0007,Electrical System,A,Critical,4970000.0,Scania Principal - Belgium (Leuven DC),122,28,Mining-Nickel
+SC-BRK-0011,Brake System - 0011,Brake System, C ,Medium,4543000.0,Scania Principal - Belgium (Leuven DC),124,30,Construction
+SC-TRN-0013,Transmission - 0013,Transmission,C, Critical ,15433000.0,Scania Principal - Belgium (Leuven DC),122,31,Agriculture
+SC-CLG-0006,Cooling System - 0006,Cooling System,C,high,1305000.0,Scania Regional Warehouse - Singapore,42,7,General
+SC-ELC-0008,Electrical System - 0008,Electrical System,B,low,2804000.0,Scania Principal - Belgium (Leuven DC),126,29,General
+SC-FUE-0011,Fuel System - 0011,Fuel System,b,Medium,4636000.0,Scania Principal - Belgium (Leuven DC),122,31,Construction
+SC-ELC-0009,Electrical System - 0009,Electrical System,A,High,2988000.0,Scania Principal - Belgium (Leuven DC),122,28,General
+SC-TRN-0014,Transmission - 0014,Transmission,A, Critical ,16344000.0,Scania Regional Warehouse - Singapore,42,7,Mining-Nickel
+SC-FUE-0012,Fuel System - 0012,Fuel System,d,MEDIUM,6775000.0,Scania Principal - Belgium (Leuven DC),118,29,Agriculture
+SC-FUE-0013,Fuel System - 0013,Fuel System,D,Low,7357000.0,Scania Principal - Belgium (Leuven DC),129,30,Mining-Coal
+SC-SUS-0020,Suspension & Chassis - 0020,Suspension & Chassis,A, High ,9229000.0,Scania Principal - Belgium (Leuven DC),128,28,Mining-Coal
+SC-FUE-0014,Fuel System - 0014,Fuel System,C, Medium ,,Scania Principal - Belgium (Leuven DC),123,31,Construction
+SC-ELC-0010,Electrical System - 0010,Electrical System,a,High,3318000.0,Scania Principal - Belgium (Leuven DC),126,29,General
+SC-ENG-0015,Engine Component - 0015,Engine Component,D,Medium,30271000.0,Scania Principal - Belgium (Leuven DC),118,32,Mining-Coal
+SC-FLT-0012,Filter - 0012,Filter,C,Medium,963000.0,Scania Principal - Belgium (Leuven DC),121,28,Mining-Coal
+SC-ELC-0011,Electrical System - 0011,Electrical System,a,High,3747000.0,Scania Principal - Belgium (Leuven DC),118,29,Construction
+SC-SUS-0021,Suspension & Chassis - 0021,Suspension & Chassis,B, High ,10014000.0,Scania Principal - Belgium (Leuven DC),123,31,Mining-Nickel
+SC-TWA-0011,Tire & Wheel Accessories - 0011,Tire & Wheel Accessories,C,,1567000.0,Scania Principal - Belgium (Leuven DC),119,29,Construction
+SC-TRN-0015,Transmission - 0015,Transmission,d,,12489000.0,Scania Principal - Belgium (Leuven DC),127,31,Forestry
+SC-BRK-0012,Brake System - 0012,Brake System,B,high,3765000.0,Scania Principal - Belgium (Leuven DC),121,32,General
+SC-HYD-0014,Hydraulic System - 0014,Hydraulic System,A,High,5416000.0,Scania Regional Warehouse - Singapore,47,11,Mining-Coal
+SC-TWA-0012,Tire & Wheel Accessories - 0012,Tire & Wheel Accessories, C ,High,1301000.0,Scania Principal - Belgium (Leuven DC),117,31,Mining-Coal
+SC-TRN-0016,Transmission - 0016,Transmission,B,Critical,21226000.0,Scania Principal - Belgium (Leuven DC),126,32,Construction
+SC-FUE-0015,Fuel System - 0015,Fuel System, A ,High,7562000.0,Scania Principal - Belgium (Leuven DC),123,28,Mining-Coal
+SC-BRK-0013,Brake System - 0013,Brake System,A,,4328000.0,Scania Regional Warehouse - Singapore,36,13,Agriculture
+SC-TRN-0017,Transmission - 0017,Transmission,C, Medium ,18028000.0,Scania Principal - Belgium (Leuven DC),123,32,Agriculture
+SC-SUS-0022,Suspension & Chassis - 0022,Suspension & Chassis, B ,High,11453000.0,Scania Regional Warehouse - Singapore,39,11,General
+SC-SUS-0023,Suspension & Chassis - 0023,Suspension & Chassis, C ,Medium,10336000.0,Scania Principal - Belgium (Leuven DC),125,29,General
+SC-HYD-0015,Hydraulic System - 0015,Hydraulic System,B,High,12011000.0,Scania Principal - Belgium (Leuven DC),128,32,General
+SC-CLG-0007,Cooling System - 0007,Cooling System,B,High,2715000.0,Scania Regional Warehouse - Singapore,42,8,Agriculture
+SC-TRN-0018,Transmission - 0018,Transmission,A,High,13066000.0,Scania Regional Warehouse - Singapore,42,8,Mining-Nickel
+SC-CLG-0008,Cooling System - 0008,Cooling System,A,Critical,2327000.0,Scania Regional Warehouse - Singapore,42,12,Forestry
+SC-HYD-0016,Hydraulic System - 0016,Hydraulic System,B,,10758000.0,Scania Principal - Belgium (Leuven DC),127,32,Mining-Coal
+SC-FLT-0013,Filter - 0013,Filter,B,Low,623000.0,Scania Principal - Belgium (Leuven DC),127,28,Forestry
+SC-FLT-0014,Filter - 0014,Filter,D,Low,,Scania Principal - Belgium (Leuven DC),117,30,Construction
+SC-TWA-0013,Tire & Wheel Accessories - 0013,Tire & Wheel Accessories,c, Low ,2066000.0,Scania Regional Warehouse - Singapore,31,11,Mining-Coal
+SC-ENG-0016,Engine Component - 0016,Engine Component,B,High,28110000.0,Scania Principal - Belgium (Leuven DC),127,31,General
+SC-FUE-0016,Fuel System - 0016,Fuel System,C,Medium,8641000.0,Scania Regional Warehouse - Singapore,47,7,Mining-Coal
+SC-ELC-0012,Electrical System - 0012,Electrical System,A,Medium,4084000.0,Scania Principal - Belgium (Leuven DC),122,28,General
+SC-SUS-0024,Suspension & Chassis - 0024,Suspension & Chassis,A,critical,8277000.0,Scania Regional Warehouse - Singapore,43,12,General
