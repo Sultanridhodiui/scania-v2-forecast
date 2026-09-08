@@ -65,5 +65,8 @@ print("\nShape akhir:", df.shape)
 print(df[["Branch_ID", "Part_Number", "Period", "Actual_Demand_Qty", "Sector_Match",
           "Relevant_Macro_Value", "Lag_1", "MA_3"]].head(10))
 
+# Lag 1 bulan untuk variabel makro relevan (efek ekonomi butuh waktu menjalar)
+df["Relevant_Macro_Value_Lag1"] = df.groupby(["Branch_ID", "Part_Number"])["Relevant_Macro_Value"].shift(1)
+
 df.to_csv("data/features_final.csv", index=False)
 print("\nTersimpan: data/features_final.csv")
