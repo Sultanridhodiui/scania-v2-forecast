@@ -6,7 +6,6 @@ warnings.filterwarnings("ignore")
 df = pd.read_csv("data/features_final.csv", parse_dates=["Period"])
 
 def croston_sba(ts, alpha=0.1, n_forecast=1):
-    """Croston's Method dengan koreksi SBA (Syntetos-Boylan Approximation)."""
     ts = np.array(ts)
     n = len(ts)
     demand_sizes, intervals = [], []
@@ -20,10 +19,8 @@ def croston_sba(ts, alpha=0.1, n_forecast=1):
             last_nonzero_idx = i
 
     if len(demand_sizes) < 2:
-        # terlalu sedikit demand nonzero untuk Croston -> fallback ke rata-rata sederhana
         return np.repeat(np.mean(ts) if len(ts) > 0 else 0, n_forecast)
 
-    # exponential smoothing untuk ukuran demand & interval
     smoothed_size = demand_sizes[0]
     smoothed_interval = intervals[0] if intervals else 1
     for i in range(1, len(demand_sizes)):
@@ -31,7 +28,7 @@ def croston_sba(ts, alpha=0.1, n_forecast=1):
         if i < len(intervals):
             smoothed_interval = alpha * intervals[i] + (1 - alpha) * smoothed_interval
 
-    forecast_value = (smoothed_size / smoothed_interval) * (1 - alpha / 2)  # koreksi SBA
+    forecast_value = (smoothed_size / smoothed_interval) * (1 - alpha / 2)
     return np.repeat(max(0, forecast_value), n_forecast)
 
 def wape(actual, forecast):
@@ -41,7 +38,6 @@ def wape(actual, forecast):
         return np.nan
     return np.abs(a - f).sum() / a.sum() * 100
 
-# Pakai sampel combos yang SAMA seperti SARIMA/SARIMAX (biar perbandingan adil)
 sample_combos = []
 for rank in ["A", "B", "C", "D"]:
     for match in [0, 1]:
@@ -53,6 +49,8 @@ for rank in ["A", "B", "C", "D"]:
             sample_combos.append((row["Branch_ID"], row["Part_Number"], rank, match))
 
 results = []
+prediction_rows = []
+
 for branch_id, part_number, rank, match in sample_combos:
     data = df[(df["Branch_ID"] == branch_id) & (df["Part_Number"] == part_number)].sort_values("Period").reset_index(drop=True)
     train = data[data["Period"] < "2024-01-01"]
@@ -70,10 +68,19 @@ for branch_id, part_number, rank, match in sample_combos:
     results.append({"Branch_ID": branch_id, "Part_Number": part_number, "Rank": rank,
                      "Sector_Match": match, "WAPE_Croston": wape_croston})
 
+    for i, period in enumerate(test["Period"].values):
+        prediction_rows.append({
+            "Branch_ID": branch_id, "Part_Number": part_number, "Period": period,
+            "Actual": y_test.values[i], "Pred_Croston": forecast[i]
+        })
+
 results_df = pd.DataFrame(results)
 summary = results_df.groupby("Rank")["WAPE_Croston"].median()
 print("=== MEDIAN WAPE Croston's Method per Rank ===")
 print(summary)
 
 results_df.to_csv("data/croston_sample_results.csv", index=False)
-print("\nTersimpan: data/croston_sample_results.csv")
+
+pred_df = pd.DataFrame(prediction_rows)
+pred_df.to_csv("data/croston_predictions_detail.csv", index=False)
+print("\nTersimpan: data/croston_sample_results.csv dan croston_predictions_detail.csv")

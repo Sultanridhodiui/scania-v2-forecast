@@ -26,6 +26,7 @@ def wape(actual, forecast):
     return np.abs(a - f).sum() / a.sum() * 100
 
 results = []
+prediction_rows = []
 
 for branch_id, part_number, rank, match in sample_combos:
     data = df[(df["Branch_ID"] == branch_id) & (df["Part_Number"] == part_number)].sort_values("Period").reset_index(drop=True)
@@ -42,10 +43,11 @@ for branch_id, part_number, rank, match in sample_combos:
     try:
         sarima_model = SARIMAX(y_train, order=(1,1,1), seasonal_order=(1,1,1,12),
                                 enforce_stationarity=False, enforce_invertibility=False).fit(disp=False)
-        sarima_forecast = sarima_model.forecast(len(test))
-        wape_sarima = wape(y_test, sarima_forecast.values)
+        sarima_forecast = sarima_model.forecast(len(test)).values
+        wape_sarima = wape(y_test, sarima_forecast)
     except Exception:
         wape_sarima = np.nan
+        sarima_forecast = np.repeat(np.nan, len(test))
 
     macro_train = train["Relevant_Macro_Value_Lag1"]
     if macro_train.notna().sum() == 0:
@@ -68,6 +70,12 @@ for branch_id, part_number, rank, match in sample_combos:
         "WAPE_SARIMA": wape_sarima, "WAPE_SARIMAX": wape_sarimax
     })
 
+    for i, period in enumerate(test["Period"].values):
+        prediction_rows.append({
+            "Branch_ID": branch_id, "Part_Number": part_number, "Period": period,
+            "Pred_SARIMA": sarima_forecast[i]
+        })
+
 results_df = pd.DataFrame(results)
 print(f"\nBerhasil diproses: {len(results_df)} kombinasi")
 
@@ -76,4 +84,7 @@ print("\n=== MEDIAN WAPE per Rank x Sector_Match (dengan Lag1 macro) ===")
 print(summary)
 
 results_df.to_csv("data/sarima_sarimax_sample_results.csv", index=False)
-print("\nTersimpan: data/sarima_sarimax_sample_results.csv")
+
+pred_df = pd.DataFrame(prediction_rows)
+pred_df.to_csv("data/sarima_predictions_detail.csv", index=False)
+print("\nTersimpan: data/sarima_sarimax_sample_results.csv dan sarima_predictions_detail.csv")
